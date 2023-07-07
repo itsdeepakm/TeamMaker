@@ -1,0 +1,62 @@
+.homeInner{
+    background: #00bf8f; 
+background: -webkit-linear-gradient(to right, #18735e, #12604c);  
+background: linear-gradient(to right, #17725d, #0c6952); 
+
+    color: #fff;
+}
+
+.homeImg{
+    height: 400px;
+    border: 0;
+    border-radius:10px;
+    box-shadow: 4px 6px 8px #000;
+}
+
+.homeHeading{
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 0 0 20px ;
+}
+
+.homeCol{
+    padding: 5%;
+}
+
+.homeDescription{
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.links{
+    background: rgb(4, 200, 244);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-top: 25px;
+}
+
+.linkRegister{
+    margin-left: 30px;
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background:rgb(67, 171, 206);
+    color: black;
+    /* transform: translateY(-6px); */
+}
+
+.links:active .front {
+    transform: translateY(-2px);
+}
+
+.links:focus:not(:focus-visible){
+    outline: none;
+}

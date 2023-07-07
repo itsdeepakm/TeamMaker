@@ -1,0 +1,33 @@
+.editNavbar{
+  padding: 2% 8%;
+  /* background-color:#00a4b4; */
+  /* background-color: rgb(251 146 60);
+  height:50px; */
+}
+
+.logoImg{
+  position: relative;
+  top: 0.5rem;
+  height: 60px;
+}
+
+.navHeading{
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  top: 0.3rem;
+}
+.homelink{
+  color: #fff;
+  font-size:1.2rem;
+  display: inline-block;
+  
+}
+.navbutton{
+  color:black;
+  display:block;
+  border-radius:5px;
+  font-size:1rem;
+  background:rgb(67, 171, 206);
+}

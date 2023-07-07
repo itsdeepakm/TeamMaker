@@ -1,0 +1,116 @@
+/* * { 
+    margin : 0;
+    padding: 0;
+    box-sizing : border-box;
+    font-familly : "Poppins", sans-serif;
+  } */
+
+  /* .cardInner {
+    display : flex;
+    align-items : center;
+    justify-content : center;  
+    background-color: #43345d;
+    min-height : 800px;
+  } */
+  
+  .cardContainer {
+    position : relative;
+    width : 400px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-warp : warp;
+    /* padding : 30px;   */
+  }
+  
+  .cardContainer .card {
+    position: relative;
+    max-width : 300px;
+    height : 215px;  
+    background-color : #fff;
+    margin : 30px 10px;
+    padding : 20px 15px;
+    display : flex;
+    flex-direction : column;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.5);
+    transition : 0.3s ease-in-out;
+    border-radius : 15px;
+  }
+  .cardContainer .card:hover {
+    height : 320px;    
+  }
+  
+  
+  .cardContainer .card .cardImage {
+    position : relative;
+    width : 260px;
+    height : 260px;
+    top : -40%;
+    left: 8px;
+    box-shadow : 0 5px 20px rgba(0,0,0,0.2);
+    z-index : 1;
+  }
+  
+  .cardContainer .card .cardImage img {
+    max-width : 100%;
+    border-radius : 15px;
+  }
+  
+  .cardContainer .card .cardContent {
+    position : relative;
+    top : -140px;
+    padding : 5px 15px 0;
+    color : #111;
+    text-align : center;
+    visibility : hidden;
+    opacity : 0;
+    transition : 0.3s ease-in-out;
+  }
+  
+  .cardContainer .card:hover .cardContent {
+     margin-top : 30px;
+     visibility : visible;
+     opacity : 1;
+     transition-delay: 0.2s;
+  }
+
+  .links{
+    background: #000000;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-top: 5px;
+}
+
+.linkRegister{
+    margin-left: 10px;
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #18735e;
+    color: rgb(255, 255, 255);
+    transform: translateY(-6px);
+}
+
+.links:active .front {
+    transform: translateY(-2px);
+}
+
+.links:focus:not(:focus-visible){
+    outline: none;
+}
+
+.cardHeading{
+  font-size: 2rem;
+}
+
+.cardDescription{
+  font-size: 1rem;
+}

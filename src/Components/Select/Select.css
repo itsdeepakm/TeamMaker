@@ -1,0 +1,28 @@
+.selectInner{
+    text-align: center;
+    background: #00bf8f; 
+background: -webkit-linear-gradient(to right, #18735e, #12604c);  
+background: linear-gradient(to right, #17725d, #0c6952); 
+
+    color: #fff;
+}
+
+.selectCard{
+    margin-top: 100px;
+}
+
+.selectColFix{
+    text-align: center;
+    margin: 30px 0 50px;
+}
+
+.selectHeading{
+    margin-top: 20px;
+}
+.nav-logout{
+    position: relative;
+    right: 60px;
+    top: -75px;
+    color:white;
+    background-color:green;
+}
